@@ -1,0 +1,109 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Fee register prototype
+{% endblock %}
+
+{% block content %}
+<div class="govuk-o-width-container">
+<div id="global-header-bar-index"></div>
+</div>
+
+<div class="govuk-o-width-container">
+  <main role="main" class="govuk-o-main-wrapper">
+    <div class="govuk-o-grid">
+      <div class="govuk-o-grid__item govuk-o-grid__item--two-thirds">
+        <h1 class="govuk-heading-xl">
+          Fee register prototype
+          <span class="govuk-caption-xl">Version 1</span>
+        </h1>{{releaseVersion | log }}
+
+
+
+
+        <a href="sign-in" role="button" class="govuk-c-button">
+          Start prototype</a>
+
+          <p class="govuk-body govuk-!-f-19">Initial design mock up, </p>
+          <p class="govuk-body govuk-!-f-19">25th March - 9th May 2018, Payments sprint 35</p>
+
+        <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+
+
+
+
+        <!-- <details class="govuk-c-details">
+      <summary class="govuk-c-details__summary">
+        <span class="govuk-c-details__summary-text">
+          Previous prototype versions
+        </span>
+      </summary>
+      <div class="govuk-c-details__text">
+        <ul class="govuk-list govuk-list--bullet">
+        <li><a href="">Version 2</a></li>
+        <ul class="govuk-list govuk-list--bullet"> <p class="govuk-body govuk-!-f-19">25th March - 9th May 2018, Research round 1, Payments sprint 35</p>
+          <p class="govuk-body govuk-!-f-19 govuk-body govuk-!-w-bold">What's new:</p>
+        <ul>
+          <li>Initial design mock up</li>
+          <br>
+        </ul>
+
+        <li><a href="">Version 1</a></li>
+        <ul class="govuk-list govuk-list--bullet"> <p class="govuk-body govuk-!-f-19">25th March - 9th May 2018, Payments sprint 35</p>
+          <p class="govuk-body govuk-!-f-19 govuk-body govuk-!-w-bold">What's new:</p>
+        <ul>
+          <li>Initial design mock up</li>
+        </ul>
+      </div>
+    </details> -->
+
+
+        <br>
+  			<h2 class="govuk-heading-l">Examples and documentation</h2>
+
+  			<ul class="govuk-list govuk-list--bullet">
+  				<li><a href="/docs/tutorials-and-examples">Example pages and documentation</a></li>
+  				<li>
+  					<a href="https://govuk-design-system-production.cloudapps.digital">
+  						GOV.UK Design System
+  					</a>
+  				</li>
+  			</ul>
+
+      </div>
+
+      <div class="govuk-o-grid__item govuk-o-grid__item--one-third">
+
+        <aside class="app-related-items" role="complementary">
+          <h2 class="govuk-heading-m" id="subsection-title">
+            Controls
+          </h2>
+          <nav role="navigation" aria-labelledby="subsection-title">
+            <ul class="govuk-list govuk-body-s">
+              <li>
+                <a href="/prototype-admin/clear-data">
+                  Clear session
+                </a>
+              </li>
+              <!-- <li>
+                <a href="#">
+                  Related link
+                </a>
+              </li> -->
+              <!-- <li>
+                <a href="#" class="govuk-!-w-bold">
+                  More <span class="visuallyhidden">in Subsection</span>
+                </a>
+              </li> -->
+            </ul>
+          </nav>
+        </aside>
+
+      </div>
+
+
+    </div>
+  </main>
+</div>
+
+{% endblock %}
